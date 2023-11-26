@@ -6,7 +6,6 @@
 # Version: Version 1.3.0
 # Tested on: https://www.softaculous.com/apps/cms/CSZ_CMS
 
-##Use : python3 cz.py https://demos1.softaculous.com/CSZ_CMSladcjtgqrm/ id
 
 import os
 import zipfile
@@ -27,8 +26,8 @@ import platform
 import tarfile
 from io import BytesIO
 
-email = "demos@softaculous.com" 
-password = "pass"
+email = "admin@admin.com" 
+password = "password"
 
 class colors:
     OKBLUE = '\033[94m'

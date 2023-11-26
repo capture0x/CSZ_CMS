@@ -65,4 +65,5 @@
 ## Exploit:
 
 ```python3 CSZ_CMS.py https://demos1.softaculous.com/CSZ_CMSladcjtgqrm/ id```
+
 <img src="https://raw.githubusercontent.com/capture0x/CSZ_CMS/main/1.png" alt="CMS IMAGE" width="1000">
